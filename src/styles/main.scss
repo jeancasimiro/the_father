@@ -1,0 +1,23 @@
+@use 'hero';
+@use 'sobre';
+@use 'personagens';
+@use 'sessao';
+
+body {
+    background-color: rgb(3, 11, 27);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    list-style: none;
+    color: white;
+}
+

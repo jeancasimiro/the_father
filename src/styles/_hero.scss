@@ -1,0 +1,29 @@
+.hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url(../images/image2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position:relative;
+
+
+    &__text {
+        text-align: center;
+        color: white;
+    }
+
+    &__logo {
+        margin: 0 auto;
+        height: 200px;
+        display: block;
+
+        @media (min-width: 360px) and (max-width: 767px) {
+            max-width: 90%;
+        }
+
+        @media (min-width: 768px) and (max-width: 1024px) {
+            max-width: 85%;
+        }
+
+    }
+}
